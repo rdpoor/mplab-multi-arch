@@ -8,7 +8,7 @@ Here's a technique for creating mulitple projects in MPLAB.X that share a body o
 
 * Create a “wrapper” directory, e.g. `mplab_multi_arch`
 * Within that directory, create an MPLAB project for each platform, e.g. "SAME54" and "SAML22"
-* In each MPLAB project, rename the default configuration to <platform>_config
+* In each MPLAB project, rename the default configuration to \<platform\>_config
 * Use Harmony 3 to instantiate and configure the various modules for each project.
 
 You will end up with a directory structure like this:
