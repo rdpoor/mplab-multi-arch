@@ -45,7 +45,7 @@ src/
     bsp_led.c
     ...
 ```
-Within the bsp_* files, you can provide bits of SKU-specific code like this:
+Within the bsp_* files, you can provide bits of platform-specific code like this:
 ```
 #if defined(XPRJ_same54_config)
   ...
